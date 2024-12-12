@@ -1,0 +1,23 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+@import '_carousel.scss';
