@@ -20,4 +20,11 @@ footer {
   bottom: 0;
   text-align: center;
 }
-@import '_carousel.scss';
+
+.carousel {
+  padding: 81px 0;
+  .single_item {
+  width: 250px;
+  margin: 0 auto;
+  }
+}
