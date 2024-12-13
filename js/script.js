@@ -1,8 +1,16 @@
 $(document).ready(function(){
   $('.single_item').slick({
-    dots: true,
     prevArrow: '<button type="button" class="slick-prev"><img src="icons/right.png"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="icons/right.png"></button>'
+    nextArrow: '<button type="button" class="slick-next"><img src="icons/right.png"></button>',
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          dots: true,
+          arrows: false
+        }
+      }
+    ]
   });
 });
 document.addEventListener('DOMContentLoaded', function() {

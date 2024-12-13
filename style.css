@@ -17,20 +17,19 @@ h2 {
   font-weight: bold;
 }
 footer {
-
   width: 100%;
   margin-top: 40px;
   text-align: center;
   color: gray;
 }
 .carousel {
-  padding: 10px 0;
+  padding: 10px 0px;
+  margin: auto;
 }
 
 .carousel .single_item {
-  position: relative;
   width: 250px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .carousel .single_item .slick-dots {
@@ -41,9 +40,9 @@ footer {
 
 .carousel .single_item .slick-dots button {
   font-size: 0;
-  height: 16px;
-  background-color: #fff;
+  padding: 15px;
   border-radius: 50%;
+  background-color: #cfcfcf;
 }
 
 .carousel .single_item .slick-dots li {
@@ -51,10 +50,9 @@ footer {
   margin: 0px 30px 0px 0px;
 }
 
-.carousel .single_item .slick-dots li .slick-active button {
-  height: 22px;
-  background-color: black;
-  border: 1px solid black;
+.carousel .single_item .slick-active button {
+  padding: 20px;
+  background-color: #b0b0b0;
   border-radius: 50%;
 }
 
