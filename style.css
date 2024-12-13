@@ -5,7 +5,9 @@ body {
   line-height: 1.5;
   text-align: center;
 }
+header {
 
+}
 h1 {
   font-size: 1.4em;
   font-weight: bold;
@@ -15,10 +17,11 @@ h2 {
   font-weight: bold;
 }
 footer {
-  position: fixed;
+
   width: 100%;
-  bottom: 0;
+  margin-top: 40px;
   text-align: center;
+  color: gray;
 }
 .carousel {
   padding: 10px 0;
@@ -57,7 +60,7 @@ footer {
 
 .carousel .slick-prev, .carousel .slick-next {
   position: absolute;
-  top: 30%;
+  top: 25%;
   transform: translateY(-50%);
   left: -80px;
   border: none;
@@ -65,17 +68,19 @@ footer {
   transform: scaleX(-1);
 }
 
-  .carousel .slick-prev img, .carousel .slick-next img {
+.carousel .slick-prev img, .carousel .slick-next img {
   width: 51px;
   height: 51px;
 }
 
-  .carousel .slick-next {
+.carousel .slick-next {
   left: auto;
   right: -80px;
   transform: scaleX(1);
 }
+
 .deposit {
+  margin: auto;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
