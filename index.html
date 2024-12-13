@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Слайдер</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="slick.css">
@@ -10,7 +12,7 @@
     <h1>Слайдер для лабораторной работы №2</h1>
   </section>
   <section class="carousel">
-    <h2>Одиночный слайдер</h2>
+    <h2>Коты</h2>
       <div class="single_item">
         <div>
           <img src="img/slide_1.jpg" alt="slide" width="350" height="250">
@@ -22,6 +24,24 @@
           <img src="img/slide_3.jpg" alt="slide" width="250" height="250">
         </div>
       </div>
+    </section>
+    <section class="deposit">
+      <h2>Калькулятор вкладов</h2>
+      <form id="deposit-form">
+        <label for="deposit-type">Вид вклада:</label>
+        <select id="deposit-type" name="deposit-type">
+          <option value="replenishable">Пополняемый</option>
+          <option value="emergency">Срочный</option>
+        </select>
+        <label for="deposit-term">Срок вклада:</label>
+        <select id="deposit-term" name="deposit-term">
+    <!-- Options will be dynamically populated based on deposit type -->
+        </select>
+        <label for="deposit-amount">Сумма, руб:</label>
+        <input type="number" id="deposit-amount" name="deposit-amount" required>
+        <button type="button" id="calculate-button">Рассчитать</button>
+      </form>
+      <div id="result" class="result"></div>
     </section>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
